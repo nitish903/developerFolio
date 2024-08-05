@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Nitish Kadu",
-  title: "SDE | React, Angular, MongoDB ",
+  title: "SDE | MongoDB, React, Angular",
   subTitle: emoji(
     "As a seasoned developer with a strong foundation in MongoDB, Angular and React. I have honed my skills in building dynamic, responsive, and scalable web applications."
   ),
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  github: "https://github.com/nitish903",
+  linkedin: "www.linkedin.com/in/nitish-kadu-sbu",
   gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  leetcode: "https://leetcode.com/u/nitish_kadu/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -135,8 +135,7 @@ const educationInfo = {
       duration: "August 2024 - present",
       desc: "Coursework",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Analysis of Algorithm", "Distributed Systems", "Human Computer Interaction"
       ]
     },
     {
@@ -145,7 +144,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2018 - May 2022",
       desc: "Cousework",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["Machine Learning","Big Data Analytics","Operating Systems", "DBMS", "NLP"]
     }
   ]
 };
@@ -178,29 +177,22 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      company: "JIO Platforms Ltd",
+      companylogo: require("./assets/images/jio.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Worked on ITSM module for CloudXP, focusing on hybrid cloud management. As a MongoDB developer, handled integration, user creation, data manipulation, and query tuning. Integrated with REST APIs, microservices, and batch jobs. Collaborated using Java, Spring Boot, and tools like Studio3T. Also developed UI components with Angular.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelance Front-End Developer",
+      company: "Luna PR",
+      companylogo: require("./assets/images/luna.jpeg"),
+      date: "July 2021 – July 2022",
+      desc: "Developed responsive web apps with React.js and Next.js. Improved page load times by 50% and reduced maintenance costs by 40%. Implemented Redux, server-side rendering, and integrated RESTful APIs. Optimized codebase, boosting performance by 30%. Ensured cross-browser compatibility and delivered high-quality products ahead of deadlines."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -215,32 +207,54 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/favIcon.png"),
+      projectName: "Law Counsellor",
+      projectDesc: "React Web application prepared for Law counsellor LLP migrating their email and career service in react web applications.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.lawcounsellors.co.in/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/luna.jpeg"),
+      projectName: "",
+      projectDesc: "Developed and deployed LUNA PR portfolio website using Next js,on Vercel",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.lunapr.io/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/zg.webp"),
+      projectName: "",
+      projectDesc: "Used Next JS, Chakra UI library to create web application for Zambesi Gold",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://zambesi-gold.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/geodyst.png"),
+      projectName: "",
+      projectDesc: "Created several UI prototypes for Geodyst",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://geodyst.vercel.app/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
