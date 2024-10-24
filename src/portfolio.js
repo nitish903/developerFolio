@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Nitish Kadu",
-  title: "SDE | MongoDB, React, Angular",
+  title: "Hi, i am NITISH",
   subTitle: emoji(
     "As a seasoned developer with a strong foundation in MongoDB, Angular and React. I have honed my skills in building dynamic, responsive, and scalable web applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1IY7dIpWXjhehuzWpTkms9CGWbXAgrLiV/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/17gfyE0DUQxsn1R0xlGANE1jelZ5V-V--/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,10 +35,10 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/nitish903",
   linkedin: "www.linkedin.com/in/nitish-kadu-sbu",
-  gmail: "saadpasta70@gmail.com",
+  gmail: "mailto:nitishsatish.kadu@stonybrook.edu",
   // gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
   leetcode: "https://leetcode.com/u/nitish_kadu/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -135,7 +135,7 @@ const educationInfo = {
       duration: "August 2024 - present",
       desc: "Coursework",
       descBullets: [
-        "Analysis of Algorithm", "Distributed Systems", "Human Computer Interaction"
+        "Analysis of Algorithm", "Distributed Systems", "Data Science Fundamentals"
       ]
     },
     {
@@ -208,16 +208,16 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PRODUCTS THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/favIcon.png"),
-      projectName: "Law Counsellor",
-      projectDesc: "React Web application prepared for Law counsellor LLP migrating their email and career service in react web applications.",
+      image: require("./assets/images/jio.png"),
+      projectName: "Cloud XP",
+      projectDesc: "Developed Jio CloudXP, an AI-powered hybrid cloud management platform for enterprises to optimize cloud operations.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.lawcounsellors.co.in/"
+          url: "https://www.jio.com/jcms/cloudxp/"
         }
         //  you can add extra buttons here.
       ]
@@ -253,6 +253,18 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://geodyst.vercel.app/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/favIcon.png"),
+      projectName: "Law Counsellor",
+      projectDesc: "React Web application prepared for Law counsellor LLP migrating their email and career service in react web applications.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.lawcounsellors.co.in/"
+        }
+        //  you can add extra buttons here.
       ]
     },
   ],
@@ -386,11 +398,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+9137837990",
-  email_address: "nitishkadu903@gmail.com"
+  number: "+16313560682",
+  email_address: "nitishsatish.kadu@stonybrook.edu"
 };
 
 // Twitter Section
