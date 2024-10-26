@@ -38,7 +38,7 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                {/* <Button text="Contact me" href="#contact" /> */}
                 {greeting.resumeLink && (
                   <a
                     href={require("./resume.pdf")}
@@ -52,14 +52,20 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
+            <div className="flex-wrapper-class">
+            <img
+                alt="man sitting on table"
+                src={require("../../assets/images/nitish.png")}
+              ></img>
+            </div>
+            {/* {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/images/nitish.png")}
               ></img>
-            )}
+            )} */}
           </div>
         </div>
       </div>
