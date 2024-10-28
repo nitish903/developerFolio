@@ -53,11 +53,14 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
-            <StackProgress />
-            <Education />
             <WorkExperience />
-            <Projects />
+            <Projects /> 
+            <StackProgress />
             <StartupProject />
+            <Education />
+            {/* <WorkExperience />
+            <Projects /> */}
+            {/* <StartupProject /> */}
             <Achievement />
             <Blogs />
             <Talks />
