@@ -223,6 +223,17 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/luna.jpeg"),
+      projectName: "LUNA PR",
+      projectDesc: "Developed and deployed LUNA PR portfolio website using Next js,on Vercel",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.lunapr.io/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/goku.jpg"),
       projectName: "GOKU INU",
       projectDesc: "Developed a React website for Goku, an ERC20 anime-based token with unique tokenomics, utility, and community-driven features.",
@@ -235,6 +246,17 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/zg.webp"),
+      projectName: "Zambeesi Gold",
+      projectDesc: "Used Next JS, Chakra UI library to create web application for Zambesi Gold",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://zambesi-gold.vercel.app/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/NFT.png"),
       projectName: "NFT ADVISORY",
       projectDesc: "Built a blockchain-based platform supporting NFT creators, protecting art ownership, and boosting digital presence for all experience levels.",
@@ -244,28 +266,6 @@ const bigProjects = {
           url: "https://nft-advisory.vercel.app/"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/luna.jpeg"),
-      projectName: "LUNA PR",
-      projectDesc: "Developed and deployed LUNA PR portfolio website using Next js,on Vercel",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.lunapr.io/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/zg.webp"),
-      projectName: "Zambeesi Gold",
-      projectDesc: "Used Next JS, Chakra UI library to create web application for Zambesi Gold",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://zambesi-gold.vercel.app/"
-        }
       ]
     },
     {
