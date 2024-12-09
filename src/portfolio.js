@@ -179,7 +179,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "JIO Platforms Ltd",
       companylogo: require("./assets/images/jio.png"),
-      date: "June 2018 – Present",
+      date: "July 2022 – July 2024",
       desc: "Worked on ITSM module for CloudXP, focusing on hybrid cloud management. As a MongoDB developer, handled integration, user creation, data manipulation, and query tuning. Integrated with REST APIs, microservices, and batch jobs. Collaborated using Java, Spring Boot, and tools like Studio3T. Also developed UI components with Angular.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
