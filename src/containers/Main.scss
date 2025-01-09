@@ -5,3 +5,21 @@
   color: white;
   transition: "0.1s";
 }
+
+.skills-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+@media (max-width: 1380px) {
+  .skills-heading {
+    font-size: 40px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 768px) {
+  .skills-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+}

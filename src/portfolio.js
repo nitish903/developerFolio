@@ -135,7 +135,7 @@ const educationInfo = {
       duration: "August 2024 - present",
       desc: "Coursework",
       descBullets: [
-        "Analysis of Algorithm", "Distributed Systems", "Data Science Fundamentals"
+        "Analysis of Algorithm", "Distributed Systems", "Data Science Fundamentals", "Human Computer Interaction", "Visualization", "Prop stats"
       ]
     },
     {
