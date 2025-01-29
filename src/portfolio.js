@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "As a seasoned developer with a strong foundation in MongoDB, Angular and React. I have honed my skills in building dynamic, responsive, and scalable web applications."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/17gfyE0DUQxsn1R0xlGANE1jelZ5V-V--/view?usp=sharing", // Set to empty to hide the button
+  resumeLink:"https://drive.google.com/file/d/1XUid3C5qyn9gr1sIBj8sD7X51C9UWHJD/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -179,18 +178,14 @@ const workExperiences = {
       role: "Software Engineer",
       company: "JIO Platforms Ltd",
       companylogo: require("./assets/images/jio.png"),
-      date: "July 2022 – July 2024",
-      desc: "Worked on ITSM module for CloudXP, focusing on hybrid cloud management. As a MongoDB developer, handled integration, user creation, data manipulation, and query tuning. Integrated with REST APIs, microservices, and batch jobs. Collaborated using Java, Spring Boot, and tools like Studio3T. Also developed UI components with Angular.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      date: "June 2022 – July 2024",
+      desc:"Developed ITSM systems for India’s NIC using Angular, MongoDB, Spring Boot, and PostgreSQL, resolving 10,000+ requests. Built AI-powered CCTV monitoring at Reliance for SEV1 incidents. Designed an AI-driven Knowledge Management Database, reducing tickets by 20,000/month. Delivered a scalable SaaS platform with RBAC, Camunda, and Azure DevOps."
     },
     {
       role: "Freelance Front-End Developer",
       company: "Luna PR",
       companylogo: require("./assets/images/luna.jpeg"),
-      date: "July 2021 – July 2022",
+      date: "May 2021 – May 2022",
       desc: "Developed responsive web apps with React.js and Next.js. Improved page load times by 50% and reduced maintenance costs by 40%. Implemented Redux, server-side rendering, and integrated RESTful APIs. Optimized codebase, boosting performance by 30%. Ensured cross-browser compatibility and delivered high-quality products ahead of deadlines."
     },
   ]
